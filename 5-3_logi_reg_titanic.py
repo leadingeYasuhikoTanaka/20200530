@@ -54,7 +54,7 @@ trainX = train[
 # print(trainX)
 
 # 訓練データと検証データの分割
-X_train, X_test, y_train, y_test = train_test_split(trainX, train_y, test_size = 0.25,random_state=21)
+X_train, X_test, y_train, y_test = train_test_split(trainX, train_y, test_size = 0.25,random_state=22)
 
 # ロジスティク回帰のインスタンス化
 logi_model=LogisticRegression()
